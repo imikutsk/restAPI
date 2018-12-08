@@ -37,6 +37,7 @@ class GetImages(Resource):
             f.write(r.content)
             f.close()
 
-        return 'Save '+str(sum)+' images in folder '+images_path
+        #return 'Save '+str(sum)+' images in folder '+images_path
+        return sum
 
 

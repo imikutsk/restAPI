@@ -31,7 +31,7 @@ class GetText(Resource):
         f.close()
 
 
-        return 'Save '+ url[8:12]+'.txt file in folder '+text_path
+        return 'Save '+ url[8:12]+' file in folder '+text_path
 
 
 
